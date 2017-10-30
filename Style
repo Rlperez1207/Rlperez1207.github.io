@@ -1,3 +1,88 @@
-h1 {
-color: red;
+body {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  margin: 20px;
+  background-color: #bababa;
+}
+
+#title {
+  font-size: 20px;
+  text-align: center;
+  color: yellow: 
+}
+
+#title h1 {
+  margin-bottom: 0px;
+  
+}
+#title h2 {
+  margin-top: 0px;
+  text-align: center;
+}
+#body {
+  font-weight: bold;
+  text-align: center;
+}
+
+body img {
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+}
+
+#body h2 {
+  text-align: center;
+}
+
+#nav { 
+  text-align: center;
+  background-color: #001144;
+}
+
+#nav li {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+#buttons {
+  text-align: center;
+  position: relative;
+  top: -200px;
+}
+
+#next { 
+  font-size: 50px;
+  margin-left: 200px;
+  width: 50px;
+  height: 100px;
+  opacity: .70;
+  border: 3px solid black;
+}
+
+#last{
+  font-size: 50px;
+  margin-right: 200px;
+  width: 50px;
+  height: 100px;
+  opacity: .70;
+  border: 3px solid black;
+}
+
+#foot {
+  text-align: center;
+  background-color: #000144;
+}
+
+#foot li {
+  list-style-type:none;
+  margin: 5px;
+  font-size: 30px;
+  display: inline;
+  color: white;
 }
