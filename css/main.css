@@ -1,88 +1,43 @@
 body {
-  font-family: 'Saira Extra Condensed', sans-serif;
-  margin: 20px;
-  background-color: #bababa;
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-#title {
-  font-size: 20px;
-  text-align: center;
-  color: yellow: 
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-#title h1 {
-  margin-bottom: 0px;
-  
-}
-#title h2 {
-  margin-top: 0px;
-  text-align: center;
-}
-#body {
-  font-weight: bold;
-  text-align: center;
-}
-
-body img {
-  width: 500px;
-  height: 300px;
-  display: block;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid black;
-}
-
-#body h2 {
-  text-align: center;
-}
-
-#nav { 
-  text-align: center;
-  background-color: #001144;
-}
-
-#nav li {
-  list-style-type: none;
-  display: inline;
-  margin: 5px;
-  font-size: 30px;
-  color: white;
-}
-
-#buttons {
-  text-align: center;
-  position: relative;
-  top: -200px;
-}
-
-#next { 
-  font-size: 50px;
-  margin-left: 200px;
-  width: 50px;
-  height: 100px;
-  opacity: .70;
-  border: 3px solid black;
-}
-
-#last{
-  font-size: 50px;
-  margin-right: 200px;
-  width: 50px;
-  height: 100px;
-  opacity: .70;
-  border: 3px solid black;
-}
-
-#foot {
-  text-align: center;
-  background-color: #000144;
-}
-
-#foot li {
-  list-style-type:none;
-  margin: 5px;
-  font-size: 30px;
-  display: inline;
-  color: white;
+ul.posts li {
+    list-style: none;
 }
