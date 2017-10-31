@@ -1,2 +1,4 @@
 name: Ricardo Johnson, Horrible Writer
 	markdown: kramdown
+	
+	permalink: /blog/:year/:month/:day/:title
