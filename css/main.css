@@ -50,6 +50,10 @@ body img {
   color: white;
 }
 
+#nav a{
+  color: white; 
+}
+
 #buttons {
   text-align: center;
   position: relative;
