@@ -92,3 +92,7 @@ body img {
   display: inline;
   color: white;
 }
+
+#homething {
+  text-align: center; 
+}
