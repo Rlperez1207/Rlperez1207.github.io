@@ -93,6 +93,10 @@ body img {
   color: white;
 }
 
-#homething {
+#homething h1{
+  text-align: center; 
+}
+
+#homething h2{
   text-align: center; 
 }
