@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Ricardo Johnson, Horrible Writer"
 date: 2017-11-01
 ---
