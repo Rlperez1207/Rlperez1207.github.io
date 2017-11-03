@@ -52,6 +52,7 @@ body img {
 
 #nav a{
   color: white; 
+  list-style: none;
 }
 
 #buttons {
