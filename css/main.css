@@ -52,7 +52,7 @@ body img {
 
 #nav a{
   color: white; 
-  list-style: none;
+  text-decoration: none;
 }
 
 #buttons {
