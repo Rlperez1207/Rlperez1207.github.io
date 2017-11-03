@@ -92,7 +92,9 @@ body img {
   display: inline;
   color: white;
 }
-
+#homething {
+  height: 100px; 
+}
 #homething h1{
   text-align: center; 
 }
