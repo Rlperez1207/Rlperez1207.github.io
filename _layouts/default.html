@@ -5,7 +5,9 @@
 	{% include header.html %}
 	<div class="content-wrapper">
 	{% for post in site.posts%}
-		<h2>{{post.date}} {{post.title}}</h2>
+		<h2>{{post.title}}</h2>
+		<h3>{{post.date}}</h3>
+		<h2>{{post.excerpt}}</h2>
 	{%endfor%}
 	{{content}}
 	</div>
