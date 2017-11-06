@@ -4,6 +4,9 @@
 	{% include head.html %}
 	{% include header.html %}
 	<div class="content-wrapper">
+	{% for post in site.posts%}
+		<h2>{{post.title}}</h2>
+	{%end for%}
 	{{content}}
 	</div>
 	{% include footer.html %}
