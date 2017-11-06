@@ -4,5 +4,10 @@ layout: default
 
 <div id="homething">
 <h1>MY NAME IS RICARDO JOHNSON AND WELCOME TO MY BLOG</h1>
-<h2>Want to read some blogs go <a href="/blog">here</a></h2>
+<h2>Want to read some of my blogs scroll down</h2>
+  {% for post in site.posts%}
+		<h2>{{post.title}}</h2>
+		<h3>{{post.date}}</h3>
+		<h2>{{post.excerpt}}</h2>
+	{%endfor%}
 </div>
