@@ -8,9 +8,9 @@ layout: default
 <div id="preview">  
 	{% for post in site.posts limit:3 %}
 		<h2>{{post.title}}</h2>
-		<h3>{{post.date}}</h3>
+		<h2>{{post.date}}</h2>
 		<h2>{{post.excerpt}}</h2>
-		<h3<Here</h3>
+		<h3><a href="{{post.url}}">Here</a></h3>
 	{%endfor%}
 </div>	
 </div>
