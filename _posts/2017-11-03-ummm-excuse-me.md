@@ -1,5 +1,4 @@
 ---
-layout: default
 layout: post
 title: "Ummm Excuse Me"
 date: 2017-11-03
