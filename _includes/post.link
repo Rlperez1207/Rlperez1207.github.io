@@ -1,0 +1,3 @@
+<div id="link">
+  <h3>>Wanna read some more? Click <a href="{{post.url}}">Here</a></h3>
+</div>
