@@ -106,4 +106,5 @@ body img {
 #excerpt {
   padding: 10px; 
   border:5px dashed black;
+  margin: 5px;
 }
