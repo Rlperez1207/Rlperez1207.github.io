@@ -102,3 +102,7 @@ body img {
 #homething h2{
   text-align: center; 
 }
+
+#preview {
+   border:5px dashed black;
+}
