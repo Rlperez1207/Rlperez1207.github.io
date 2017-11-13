@@ -104,5 +104,6 @@ body img {
 }
 
 #preview {
-   border:5px dashed black;
+  padding: 10px; 
+  border:5px dashed black;
 }
