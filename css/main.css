@@ -113,3 +113,10 @@ body img {
   background-color: white;
   margin: 5px;
 }
+#SUBSRIBES {
+ text-align: center;
+ font-size: 100px;
+ padding: 20px;
+ border: 15px solid black; 
+ margin: 10px;
+}
